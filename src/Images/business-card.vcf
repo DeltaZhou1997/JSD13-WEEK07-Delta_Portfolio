@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Chaichanadara;Pajchima;;;
+FN:Pajchima Chaichanadara
+NICKNAME:Delta
+TITLE:Software Developer & Project Specialist
+EMAIL;type=INTERNET;type=WORK;type=pref:pajchima.ch@gmail.com
+TEL;type=CELL;type=VOICE;type=pref:+66850602540
+ADR;type=HOME:;;47/1125 Moo 5 Sahaporn 11, Salaya, Putthamonthon;Nakhon Pathom;;73170;Thailand
+URL:https://www.linkedin.com/in/pajchima-chaichanadara-97a3451ab
+URL:https://github.com/DeltaZhou1997
+NOTE:A multilingual full-stack developer bridging technical web applications with international business coordination and operations logic.
+END:VCARD

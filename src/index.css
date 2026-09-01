@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-gallery-50: #fcfcfc;
+  --color-gallery-100: #f4f4f4;
+  --color-gallery-200: #eaeaea;
+  --color-gallery-800: #222222;
+  --color-gallery-900: #111111;
+  /* Brighter, more prominent metallic gold */
+  --color-gallery-gold: #D4AF37; 
+  
+  --font-sans: "Montserrat", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+body {
+  @apply bg-gallery-50 dark:bg-[#1F1612] text-gallery-900 dark:text-[#f4ece4] font-sans antialiased selection:bg-gallery-gold selection:text-white min-h-screen m-0 transition-colors duration-500;
+}
+
+@utility perspective-* {
+  perspective: --value(string);
+}
