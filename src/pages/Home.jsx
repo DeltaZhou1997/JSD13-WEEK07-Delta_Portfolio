@@ -6,7 +6,7 @@ import faoImg from '../Images/FAO.jpg';
 import fao2Img from '../Images/FAO2.jpg';
 import galaImg from '../Images/Gala-Dinner.JPG';
 import montienImg from '../Images/Montien.jpg';
-import profile2Img from '../Images/Profile_Delta2.jpg';
+import profile2Img from '../Images/Profile_Delta2.JPG';
 
 const Home = () => {
   const [activeSlide, setActiveSlide] = useState(0);

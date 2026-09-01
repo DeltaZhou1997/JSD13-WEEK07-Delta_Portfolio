@@ -19,5 +19,5 @@ body {
 }
 
 @utility perspective-* {
-  perspective: --value(string);
+  perspective: --value(length);
 }
