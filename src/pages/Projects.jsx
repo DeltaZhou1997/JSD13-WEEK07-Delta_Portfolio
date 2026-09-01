@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useOutletContext } from 'react-router-dom';
-import { projectsData } from '../mockData/projects';
+import { projectsData } from '../MockData/projects';
 
 const Projects = () => {
   const { language } = useOutletContext();

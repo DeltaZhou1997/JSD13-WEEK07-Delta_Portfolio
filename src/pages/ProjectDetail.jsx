@@ -1,6 +1,6 @@
 import { useParams, Link, useOutletContext } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { projectsData } from '../mockData/projects';
+import { projectsData } from '../MockData/projects';
 
 const ProjectDetail = () => {
   const { id } = useParams();
